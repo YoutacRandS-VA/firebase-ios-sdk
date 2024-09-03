@@ -112,7 +112,7 @@ jobs:
     steps:
     - uses: actions/checkout@v4
     - name: Get framework dir
-      uses: actions/download-artifact@v4
+      uses: actions/download-artifact@v4.1.7
       with:
         name: Firebase-actions-dir
     - uses: ruby/setup-ruby@v1
@@ -173,7 +173,7 @@ jobs:
     steps:
     - uses: actions/checkout@v4
     - name: Get framework dir
-      uses: actions/download-artifact@v4
+      uses: actions/download-artifact@v4.1.7
       with:
         name: Firebase-actions-dir
     - uses: ruby/setup-ruby@v1
@@ -226,7 +226,7 @@ jobs:
     steps:
     - uses: actions/checkout@v4
     - name: Get framework dir
-      uses: actions/download-artifact@v4
+      uses: actions/download-artifact@v4.1.7
       with:
         name: Firebase-actions-dir
     - uses: ruby/setup-ruby@v1
@@ -277,7 +277,7 @@ jobs:
     steps:
     - uses: actions/checkout@v4
     - name: Get framework dir
-      uses: actions/download-artifact@v4
+      uses: actions/download-artifact@v4.1.7
       with:
         name: Firebase-actions-dir
     - uses: ruby/setup-ruby@v1
@@ -352,7 +352,7 @@ jobs:
     steps:
     - uses: actions/checkout@v4
     - name: Get framework dir
-      uses: actions/download-artifact@v4
+      uses: actions/download-artifact@v4.1.7
       with:
         name: Firebase-actions-dir
     - uses: ruby/setup-ruby@v1
@@ -407,7 +407,7 @@ jobs:
     steps:
     - uses: actions/checkout@v4
     - name: Get framework dir
-      uses: actions/download-artifact@v4
+      uses: actions/download-artifact@v4.1.7
       with:
         name: Firebase-actions-dir
     - uses: ruby/setup-ruby@v1
@@ -467,7 +467,7 @@ jobs:
     steps:
     - uses: actions/checkout@v4
     - name: Get framework dir
-      uses: actions/download-artifact@v4
+      uses: actions/download-artifact@v4.1.7
       with:
         name: Firebase-actions-dir
     - uses: ruby/setup-ruby@v1
@@ -512,7 +512,7 @@ jobs:
         run: sudo xcode-select -s /Applications/Xcode_14.1.app/Contents/Developer
       - uses: actions/checkout@v4
       - name: Get framework dir
-        uses: actions/download-artifact@v4
+        uses: actions/download-artifact@v4.1.7
         with:
           name: Firebase-actions-dir
       - uses: ruby/setup-ruby@v1
@@ -551,7 +551,7 @@ jobs:
     steps:
     - uses: actions/checkout@v4
     - name: Get framework dir
-      uses: actions/download-artifact@v4
+      uses: actions/download-artifact@v4.1.7
       with:
         name: Firebase-actions-dir
     - uses: ruby/setup-ruby@v1
@@ -607,7 +607,7 @@ jobs:
     steps:
     - uses: actions/checkout@v4
     - name: Get framework dir
-      uses: actions/download-artifact@v4
+      uses: actions/download-artifact@v4.1.7
       with:
         name: Firebase-actions-dir
     - uses: ruby/setup-ruby@v1
@@ -662,7 +662,7 @@ jobs:
     steps:
     - uses: actions/checkout@v4
     - name: Get framework dir
-      uses: actions/download-artifact@v4
+      uses: actions/download-artifact@v4.1.7
       with:
         name: Firebase-actions-dir
     - uses: ruby/setup-ruby@v1
